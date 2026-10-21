@@ -1,0 +1,202 @@
+[
+  {
+    "id": "prod-001",
+    "name": "【夾床頭無聲】USB 軟管夾式無段調光護眼檯燈",
+    "scenario": "silent_dim",
+    "budgetTier": "practical",
+    "price": 399,
+    "stock": 8,
+    "tags": ["silent", "compact"],
+    "icon": "💡",
+    "iconLabel": "極靜音護眼微光",
+    "themeColor": "#f59e0b",
+    "specs": {
+      "power": "5W (USB供電)",
+      "noiseLevel": "0 dB (無風扇微動開關)",
+      "dimensions": "42 x 10 cm",
+      "weight": "220g"
+    },
+    "description": "360度軟管隨意彎曲，暖黃到白光無段調光，夾在床頭或桌邊完全不佔桌面，開關切換零噪音。",
+    "reasonSnippet": "極致無聲微動開關與局部微光照明，室友睡得安穩，你寫報告眼不酸。"
+  },
+  {
+    "id": "prod-002",
+    "name": "【月底吃土救星】USB 夾子型柔光筆電夜讀燈",
+    "scenario": "silent_dim",
+    "budgetTier": "budget",
+    "price": 199,
+    "stock": 15,
+    "tags": ["low_watt", "compact"],
+    "icon": "📖",
+    "iconLabel": "筆電柔光夾燈",
+    "themeColor": "#eab308",
+    "specs": {
+      "power": "2.5W (超低耗電)",
+      "noiseLevel": "0 dB",
+      "dimensions": "25 x 4 cm",
+      "weight": "90g"
+    },
+    "description": "花不到兩百元的宿舍神器！直接夾在筆電螢幕或筆記本上，單人微弱柔光剛剛好。",
+    "reasonSnippet": "超高 CP 值省錢首選，耗電極低，隨插隨亮不佔任何空間。"
+  },
+  {
+    "id": "prod-003",
+    "name": "【旗艦防眩光】雙光源智能非對稱螢幕掛燈",
+    "scenario": "silent_dim",
+    "budgetTier": "premium",
+    "price": 890,
+    "stock": 5,
+    "tags": ["silent", "compact"],
+    "icon": "🖥️",
+    "iconLabel": "非對稱螢幕掛燈",
+    "themeColor": "#38bdf8",
+    "specs": {
+      "power": "5W (Type-C供電)",
+      "noiseLevel": "0 dB",
+      "dimensions": "45 x 2.2 cm",
+      "weight": "450g"
+    },
+    "description": "非對稱光學設計，光線只照桌面不照螢幕，徹底解決螢幕反光痛點，觸控感應無聲調光。",
+    "reasonSnippet": "通宵讀書寫程式的護眼神裝，檯面完全淨空，告別反光與刺眼光害。"
+  },
+  {
+    "id": "prod-004",
+    "name": "【深夜熱飲不冷掉】USB 恆溫 55度重力感應保溫杯墊",
+    "scenario": "warm_energy",
+    "budgetTier": "budget",
+    "price": 299,
+    "stock": 0,
+    "tags": ["low_watt", "silent", "compact"],
+    "icon": "☕",
+    "iconLabel": "55°C 恆溫杯墊",
+    "themeColor": "#f97316",
+    "specs": {
+      "power": "10W (USB低電壓安全供電)",
+      "noiseLevel": "0 dB",
+      "dimensions": "12 x 12 cm",
+      "weight": "160g"
+    },
+    "description": "杯子放上自動加熱恆溫55度，拿開自動斷電。深夜的咖啡或熱可可永遠保持最療癒的溫度。",
+    "reasonSnippet": "平價溫暖首選，重力感應防乾燒，寒冬通宵時的最佳暖心拍檔。"
+  },
+  {
+    "id": "prod-005",
+    "name": "【舍監查房也不怕】300W 迷你低音快煮隨行杯",
+    "scenario": "warm_energy",
+    "budgetTier": "practical",
+    "price": 480,
+    "stock": 4,
+    "tags": ["low_watt", "silent", "compact"],
+    "icon": "🫖",
+    "iconLabel": "300W 低瓦快煮杯",
+    "themeColor": "#ec4899",
+    "specs": {
+      "power": "300W (嚴格低瓦數防跳電)",
+      "noiseLevel": "< 30 dB (煮沸時超微音)",
+      "capacity": "400ml",
+      "weight": "520g"
+    },
+    "description": "專為宿舍規格打造的 300W 隨行快煮杯，煮沸即自動保溫，泡麵、熱茶、燕麥杯一機搞定。",
+    "reasonSnippet": "符合嚴格宿舍用電規範，瓦數極低不跳電，是半夜肚子餓時的救世主。"
+  },
+  {
+    "id": "prod-006",
+    "name": "【深夜自煮宵夜神器】分離式雙溫控多功能料理快煮鍋",
+    "scenario": "warm_energy",
+    "budgetTier": "premium",
+    "price": 799,
+    "stock": 6,
+    "tags": ["compact"],
+    "icon": "🍲",
+    "iconLabel": "分離式多功能鍋",
+    "themeColor": "#ef4444",
+    "specs": {
+      "power": "雙檔可切換 300W / 600W",
+      "noiseLevel": "< 40 dB",
+      "capacity": "1.2L",
+      "weight": "980g"
+    },
+    "description": "陶瓷不沾內膽，煎、煮、炒、悶樣樣精通。期末考通宵宵夜煮小火鍋，全寢室精神都來了。",
+    "reasonSnippet": "投資等級的大容量深夜廚房，溫控精準、好清洗，犒賞熬夜苦讀的胃。"
+  },
+  {
+    "id": "prod-007",
+    "name": "【熬夜回血神器】定溫氣壓熱敷舒壓眼罩機",
+    "scenario": "refresh_mind",
+    "budgetTier": "premium",
+    "price": 850,
+    "stock": 3,
+    "tags": ["silent", "compact"],
+    "icon": "👁️",
+    "iconLabel": "定溫熱敷眼罩",
+    "themeColor": "#8b5cf6",
+    "specs": {
+      "power": "內建鋰電池 (無線Type-C充電)",
+      "noiseLevel": "< 25 dB",
+      "dimensions": "18 x 7 cm (可180度折疊)",
+      "weight": "280g"
+    },
+    "description": "仿真氣壓揉捏與40度恆溫熱敷，定時15分鐘自動關閉，小睡片刻瞬間解除雙眼疲憊乾澀。",
+    "reasonSnippet": "專為盯螢幕爆肝的學生打造，15分鐘深度放鬆，讓大腦重新滿血復活。"
+  },
+  {
+    "id": "prod-008",
+    "name": "【清涼醒腦抗昏睡】USB 桌面無刷靜音夾式小風扇",
+    "scenario": "refresh_mind",
+    "budgetTier": "budget",
+    "price": 250,
+    "stock": 10,
+    "tags": ["low_watt", "silent", "compact"],
+    "icon": "💨",
+    "iconLabel": "無刷靜音小風扇",
+    "themeColor": "#06b6d4",
+    "specs": {
+      "power": "4W (無刷省電馬達)",
+      "noiseLevel": "< 22 dB (極度安靜)",
+      "dimensions": "15 x 12 cm",
+      "weight": "180g"
+    },
+    "description": "四檔風速調節，無刷靜音馬達送出清爽柔風，在悶熱深夜瞬間吹散瞌睡蟲。",
+    "reasonSnippet": "價格親民又超安靜，在室友沉睡時為你送上清醒微風，戰勝睡魔。"
+  },
+  {
+    "id": "prod-009",
+    "name": "【乾燥冷氣房救星】超音波奈米水氧加濕器 (靜音夜燈款)",
+    "scenario": "refresh_mind",
+    "budgetTier": "practical",
+    "price": 380,
+    "stock": 7,
+    "tags": ["low_watt", "silent", "compact"],
+    "icon": "💧",
+    "iconLabel": "超音波水氧加濕器",
+    "themeColor": "#3b82f6",
+    "specs": {
+      "power": "2W (USB供電)",
+      "noiseLevel": "< 15 dB (無感靜音)",
+      "capacity": "300ml",
+      "weight": "150g"
+    },
+    "description": "奈米級細膩水霧，改善宿舍開冷氣或暖氣時口乾舌燥的問題，可加微量薄荷精油醒腦。",
+    "reasonSnippet": "極致無聲運轉，滋潤深夜乾燥空氣，搭配醒腦精油讓思緒格外清晰。"
+  },
+  {
+    "id": "prod-010",
+    "name": "【安靜敲代碼】深夜極度無聲雙模人體工學滑鼠",
+    "scenario": "silent_dim",
+    "budgetTier": "practical",
+    "price": 450,
+    "stock": 9,
+    "tags": ["silent", "compact"],
+    "icon": "🖱️",
+    "iconLabel": "無聲微動滑鼠",
+    "themeColor": "#10b981",
+    "specs": {
+      "power": "1 顆 3 號電池 (續航 12 個月)",
+      "noiseLevel": "< 10 dB (完全無點擊咔嗒聲)",
+      "dimensions": "10.5 x 6.5 cm",
+      "weight": "85g"
+    },
+    "description": "靜音微動按鍵設計，點擊手感回饋扎實卻近乎無聲，深夜連按滑鼠也不怕室友翻身瞪你。",
+    "reasonSnippet": "宿舍深夜狂點滑鼠的保命符，手部人體工學支撐，通宵點擊不痠痛。"
+  }
+]

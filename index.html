@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>深夜熬夜裝備庫 🦉 校園生活小家電推薦助手</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <!-- 頁首 Header -->
+      <header class="header">
+        <div class="header-badge">🌙 期中專題 & 考試週特設</div>
+        <h1 class="header-title">深夜熬夜裝備庫</h1>
+        <p class="header-subtitle">
+          室友全睡了？怕跳電被舍監抓？<br />
+          3 個快問快答，AI 智能幫你找出不吵人、不跳電、省荷包的宿舍神裝！
+        </p>
+      </header>
+
+      <!-- 主要內容區 -->
+      <main class="main-content">
+        <!-- 診斷問答區 -->
+        <section class="card quiz-card" id="quiz-section">
+          <form id="recommendation-form" novalidate>
+            <!-- 步驟一：使用情境 (單選) -->
+            <div class="form-group" id="group-scenario">
+              <label class="group-label">
+                <span class="step-num">1</span>
+                今晚你的深夜處境是？
+                <span class="required-star">*必填</span>
+              </label>
+              <div class="options-grid">
+                <label class="option-card radio-card">
+                  <input type="radio" name="scenario" value="silent_dim" />
+                  <div class="option-content">
+                    <span class="option-icon">🤫</span>
+                    <strong class="option-title">極致靜音與微光</strong>
+                    <span class="option-desc">室友全睡了，需要無光害照明與零分貝操作</span>
+                  </div>
+                </label>
+
+                <label class="option-card radio-card">
+                  <input type="radio" name="scenario" value="warm_energy" />
+                  <div class="option-content">
+                    <span class="option-icon">☕</span>
+                    <strong class="option-title">寒夜熱能量補給</strong>
+                    <span class="option-desc">冷颼颼的深夜通宵，需要溫熱熱飲或快煮宵夜</span>
+                  </div>
+                </label>
+
+                <label class="option-card radio-card">
+                  <input type="radio" name="scenario" value="refresh_mind" />
+                  <div class="option-content">
+                    <span class="option-icon">⚡</span>
+                    <strong class="option-title">提神清醒回血</strong>
+                    <span class="option-desc">雙眼乾澀、腦袋昏沉，急需快速提神重新戰鬥</span>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- 步驟二：預算級距 (單選) -->
+            <div class="form-group" id="group-budget">
+              <label class="group-label">
+                <span class="step-num">2</span>
+                你的荷包今晚能承受多少？
+                <span class="required-star">*必填</span>
+              </label>
+              <div class="options-grid">
+                <label class="option-card radio-card">
+                  <input type="radio" name="budgetTier" value="budget" />
+                  <div class="option-content">
+                    <span class="option-icon">🪙</span>
+                    <strong class="option-title">月底吃土級</strong>
+                    <span class="option-desc">NT$ 300 以下，百元內銅板有找極限救急</span>
+                  </div>
+                </label>
+
+                <label class="option-card radio-card">
+                  <input type="radio" name="budgetTier" value="practical" />
+                  <div class="option-content">
+                    <span class="option-icon">🎯</span>
+                    <strong class="option-title">高 CP 實用級</strong>
+                    <span class="option-desc">NT$ 300 ～ 600，性能與價格的黃金平衡</span>
+                  </div>
+                </label>
+
+                <label class="option-card radio-card">
+                  <input type="radio" name="budgetTier" value="premium" />
+                  <div class="option-content">
+                    <span class="option-icon">💎</span>
+                    <strong class="option-title">期末犒賞投資級</strong>
+                    <span class="option-desc">NT$ 600 ～ 1000，質感升級、好好犒賞自己</span>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- 步驟三：宿舍痛點偏好 (多選) -->
+            <div class="form-group" id="group-tags">
+              <label class="group-label">
+                <span class="step-num">3</span>
+                你在意的宿舍痛點規範？
+                <span class="optional-hint">(可複選或不選)</span>
+              </label>
+              <div class="options-grid tags-grid">
+                <label class="option-card checkbox-card">
+                  <input type="checkbox" name="tags" value="low_watt" />
+                  <div class="option-content">
+                    <span class="option-icon">🔌</span>
+                    <strong class="option-title">超低瓦數防跳電</strong>
+                    <span class="option-desc">嚴格低功率，舍監查房也無話可說</span>
+                  </div>
+                </label>
+
+                <label class="option-card checkbox-card">
+                  <input type="checkbox" name="tags" value="silent" />
+                  <div class="option-content">
+                    <span class="option-icon">🤫</span>
+                    <strong class="option-title">極致靜音運轉</strong>
+                    <span class="option-desc">低分貝無聲，鄰近室友熟睡不被干擾</span>
+                  </div>
+                </label>
+
+                <label class="option-card checkbox-card">
+                  <input type="checkbox" name="tags" value="compact" />
+                  <div class="option-content">
+                    <span class="option-icon">📦</span>
+                    <strong class="option-title">小巧好收納</strong>
+                    <span class="option-desc">窄小書桌放得下，放長假打包輕鬆帶走</span>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- 驗證錯誤提示訊息區 -->
+            <div id="validation-alert" class="alert-box alert-error hidden" role="alert">
+              ⚠️ 請先完成必選項目（步驟 1 與步驟 2）再進行診斷！
+            </div>
+
+            <!-- 提交按鈕 -->
+            <div class="form-actions">
+              <button type="submit" id="btn-submit" class="btn btn-primary btn-glow">
+                ⚡ 開始診斷・生成我的專屬推薦
+              </button>
+            </div>
+          </form>
+        </section>
+
+        <!-- 推薦結果區塊 (預設隱藏) -->
+        <section class="results-container hidden" id="results-section">
+          <div class="results-header">
+            <span class="results-tag">RECOMMENDATION RESULT</span>
+            <h2 class="results-title">🎯 專為您量身計算的熬夜神裝</h2>
+            <p class="results-subtitle">演算法已考量您的今晚處境、預算限制與宿舍規範</p>
+          </div>
+
+          <!-- 首選推薦卡片容器 -->
+          <div id="primary-recommendation-container"></div>
+
+          <!-- 缺貨替代方案卡片容器 -->
+          <div id="alternative-recommendation-container" class="hidden"></div>
+
+          <!-- 重新診斷按鈕 -->
+          <div class="reset-actions">
+            <button type="button" id="btn-reset" class="btn btn-secondary">
+              🔄 重新診斷其他情境
+            </button>
+          </div>
+        </section>
+      </main>
+
+      <!-- 頁尾 Footer -->
+      <footer class="footer">
+        <p>校園生活用品智能推薦助手 ｜ 技術棧：Vite + 純 Vanilla JavaScript</p>
+        <p class="footer-note">無後端資料庫・無付費 API・不收集任何個人隱私</p>
+      </footer>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
