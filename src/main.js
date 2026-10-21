@@ -14,9 +14,15 @@ let productsData = [];
  */
 async function loadProducts() {
   try {
-    const res = await fetch('/products.json');
-    if (!res.ok) {
-      throw new Error(`HTTP 錯誤: ${res.status}`);
+    let res = await fetch('./public/products.json').catch(() => null);
+    if (!res || !res.ok) {
+      res = await fetch('./products.json').catch(() => null);
+    }
+    if (!res || !res.ok) {
+      res = await fetch('/products.json').catch(() => null);
+    }
+    if (!res || !res.ok) {
+      throw new Error(`無法從已知路徑載入 products.json`);
     }
     productsData = await res.json();
     console.log(`[系統就緒] 成功載入 ${productsData.length} 款小家電商品資料庫。`);
